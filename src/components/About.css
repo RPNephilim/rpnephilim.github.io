@@ -1,0 +1,16 @@
+.about {
+  background: var(--bg-color);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
