@@ -8,21 +8,21 @@ const WorkExperience = () => {
   const experiences = [
     {
       id: 1,
-      company: 'Your Current Company',
-      location: 'City, State / Remote',
+      company: 'Capgemini Technology Services India Limited',
+      location: 'Pune, Maharashtra',
       positions: [
         {
-          title: 'Senior Backend Developer',
-          duration: 'Jan 2024 - Present',
+          title: 'Associate Consultant',
+          duration: 'Oct 2024 - Present',
         },
         {
-          title: 'Backend Developer',
-          duration: 'Jan 2022 - Dec 2023',
+          title: 'Senior Analyst',
+          duration: 'July 2023 - Aug 2024',
         }
       ],
       technologies: [
-        'Java', 'Spring Boot', 'Python', 'AWS', 'Jenkins', 
-        'Docker', 'Kubernetes', 'PostgreSQL', 'Redis'
+        'Java', 'Spring Boot', 'Python', 'AWS Lambda', 'AWS Batch', 'Jenkins', 
+        'Docker', 'Liquibase', 'Redis'
       ],
       projects: [
         {
@@ -54,42 +54,6 @@ const WorkExperience = () => {
             'Integrated 15+ microservices',
             'Containerized applications using Docker',
             'Achieved 99.9% uptime'
-          ]
-        }
-      ]
-    },
-    {
-      id: 2,
-      company: 'Previous Company Name',
-      location: 'City, State',
-      positions: [
-        {
-          title: 'Full Stack Developer',
-          duration: 'Jun 2020 - Dec 2021',
-        }
-      ],
-      technologies: [
-        'React', 'Node.js', 'MongoDB', 'Express', 'TypeScript'
-      ],
-      projects: [
-        {
-          id: 1,
-          name: 'Customer Portal Application',
-          technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-          achievements: [
-            'Developed customer-facing portal from scratch',
-            'Implemented real-time notifications',
-            'Improved page load time by 50%'
-          ]
-        },
-        {
-          id: 2,
-          name: 'Internal Dashboard & Reporting',
-          technologies: ['React', 'TypeScript', 'Node.js'],
-          achievements: [
-            'Built analytics dashboard for business metrics',
-            'Integrated with multiple third-party APIs',
-            'Reduced report generation time by 70%'
           ]
         }
       ]

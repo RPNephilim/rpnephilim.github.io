@@ -5,39 +5,48 @@ const Projects = ({ openVideoModal }) => {
   const projects = [
     {
       id: 'project1',
-      title: 'E-Commerce API',
-      description: 'A RESTful API for an e-commerce platform with microservices architecture, built with Node.js and MongoDB.',
-      tags: ['Node.js', 'Express', 'MongoDB', 'Docker'],
+      title: 'YT-Trimmer',
+      description: 'A python GUI application that allows users to trim YouTube videos by specifying start and end times, and then downloads the trimmed video locally.',
+      tags: ['Python', 'Tkinter', 'yt-dlp'],
       thumbnail: 'assets/images/project1-thumb.jpg',
       video: 'assets/videos/project1-demo.mp4',
-      github: 'https://github.com/yourusername/project1'
+      github: 'https://github.com/RPNephilim/yt-trimmer'
     },
     {
       id: 'project2',
-      title: 'Task Management Dashboard',
-      description: 'A full-stack task management application with React frontend and Python Flask backend with real-time updates.',
-      tags: ['React', 'Flask', 'PostgreSQL', 'WebSocket'],
+      title: 'Remoted',
+      description: 'A remote desktop application that enables users to access and control their computers from anywhere. It provides multiple access modes like browse, full-control and screen-share, and supports cross-platform connectivity.',
+      tags: ['Electron JS', 'React', 'TypeScript', 'Java', 'Spring Boot', 'WebRTC'],
       thumbnail: 'assets/images/project2-thumb.jpg',
       video: 'assets/videos/project2-demo.mp4',
-      github: 'https://github.com/yourusername/project2'
+      github: 'https://github.com/RPNephilim/remoted-v2'
     },
     {
       id: 'project3',
-      title: 'Authentication Service',
-      description: 'Secure authentication and authorization service with JWT tokens, OAuth2, and role-based access control.',
-      tags: ['Java', 'Spring Boot', 'Redis', 'JWT'],
+      title: 'Impel Down Prison Management System',
+      description: 'Simulated a prison management system for the fictional Impel Down prison from One Piece, allowing users to manage inmate records, cell assignments, and security protocols through a Java-based application with a Spring Boot backend.',
+      tags: ['Java', 'Spring Boot', 'MySQL'],
       thumbnail: 'assets/images/project3-thumb.jpg',
       video: 'assets/videos/project3-demo.mp4',
-      github: 'https://github.com/yourusername/project3'
+      github: 'https://github.com/RPNephilim/ImpelDownPrisonSystem'
     },
     {
       id: 'project4',
-      title: 'React Portfolio Builder',
-      description: 'A React-based web application that allows users to create and customize their professional portfolios with drag-and-drop interface.',
-      tags: ['React', 'Redux', 'Styled Components', 'Firebase'],
+      title: 'React Portfolio Using AI',
+      description: 'A React-based portfolio website build using AI tools to generate content and design elements, showcasing projects and skills.',
+      tags: ['React', 'Claude AI'],
       thumbnail: 'assets/images/project4-thumb.jpg',
       video: 'assets/videos/project4-demo.mp4',
-      github: 'https://github.com/yourusername/project4'
+      github: 'https://github.com/RPNephilim/rpnephilim.github.io'
+    },
+    {
+      id: 'project5',
+      title: 'MazeEscape Game',
+      description: 'A mobile 3D maze escape game developed in Unity, where players navigate through complex mazes by marking visited paths, with the goal of finding the exit.',
+      tags: ['Unity', 'C#'],
+      thumbnail: 'assets/images/project5-thumb.jpg',
+      video: 'assets/videos/project5-demo.mp4',
+      github: 'https://github.com/RPNephilim/MazeEscape'
     }
   ]
 

@@ -6,17 +6,17 @@ const Skills = () => {
     {
       icon: <FaServer />,
       title: 'Backend',
-      skills: ['Python', 'Java', 'Node.js', 'Go', 'REST APIs', 'GraphQL', 'Microservices', 'SQL', 'NoSQL']
+      skills: ['Python', 'Java', 'Node.js', 'REST APIs', 'Microservices', 'SQL', 'Kafka']
     },
     {
       icon: <FaDesktop />,
       title: 'Frontend',
-      skills: ['React', 'JavaScript', 'TypeScript', 'HTML/CSS', 'Redux']
+      skills: ['React', 'JavaScript', 'TypeScript', 'HTML/CSS', 'UI/UX Principles']
     },
     {
       icon: <FaTools />,
       title: 'Tools & DevOps',
-      skills: ['Git', 'Docker', 'Kubernetes', 'AWS', 'CI/CD', 'Linux']
+      skills: ['Git', 'Docker', 'AWS', 'CI/CD']
     }
   ]
 

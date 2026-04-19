@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaEnvelope, FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa'
 import './Contact.css'
 
 const Contact = () => {
@@ -12,17 +12,21 @@ const Contact = () => {
             to be part of your vision.
           </p>
           <div className="contact-info">
-            <a href="mailto:your.email@example.com" className="contact-item">
+            <a href="mailto:rajpriyadarshi3924@gmail.com" className="contact-item">
               <FaEnvelope />
-              <span>your.email@example.com</span>
+              <span>rajpriyadarshi3924@gmail.com</span>
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a href="https://github.com/rpnephilim" target="_blank" rel="noopener noreferrer" className="contact-item">
               <FaGithub />
-              <span>github.com/yourusername</span>
+              <span>github.com/rpnephilim</span>
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a href="https://linkedin.com/in/raj-priyadarshi-of2023" target="_blank" rel="noopener noreferrer" className="contact-item">
               <FaLinkedin />
-              <span>linkedin.com/in/yourusername</span>
+              <span>linkedin.com/in/raj-priyadarshi-of2023</span>
+            </a>
+            <a href="/assets/resume.pdf" download className="contact-item">
+              <FaDownload />
+              <span>Download Resume</span>
             </a>
           </div>
         </div>
