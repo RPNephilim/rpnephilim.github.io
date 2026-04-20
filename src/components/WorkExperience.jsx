@@ -27,33 +27,32 @@ const WorkExperience = () => {
       projects: [
         {
           id: 1,
-          name: 'E-Commerce Microservices Platform',
-          technologies: ['Java', 'Spring Boot', 'AWS', 'Jenkins', 'PostgreSQL'],
+          name: 'Secure Tokenization Platform (PCI)',
+          technologies: ['Java', 'AWS Lambda', 'PCI Compliance', 'Tokenization'],
           achievements: [
-            'Built RESTful APIs serving 500K+ requests/day',
-            'Implemented CI/CD pipeline using Jenkins',
-            'Deployed and managed services on AWS',
-            'Reduced deployment time by 60%'
+            'Implmented and enhanced toknization API capabilities (including JSON-based tokenization endpoints and multi-account tokenization support) to enable secure handling of payment account data',
+            'Added credit-card tokenization support and improved validator integration + error handling + unit tests for production readiness',
+            'Hardened tokenization integrations by improving certificate handling (fetch cert from S3) and standardizing error mapping for downstream consumers'
           ]
         },
         {
           id: 2,
-          name: 'Data Processing & Analytics System',
-          technologies: ['Python', 'AWS Lambda', 'S3', 'DynamoDB'],
+          name: 'Payments File Processing Pipeline',
+          technologies: ['Batch Processing', 'AWS Lambda', 'Mastercard RPPS', 'S3'],
           achievements: [
-            'Processed 10M+ records daily',
-            'Built serverless functions using AWS Lambda',
-            'Optimized data processing speed by 45%'
+            'Created AWS lambda to read and process payments data files from S3, transforming them into standardized formats for downstream processing',
+            'Delivered operational enhancements for RPPS payment alerting and improved reliablity of file-based payment workflows',
+            'Resolved a critical production issue by replicating it locally and implementing a fix for it'
           ]
         },
         {
           id: 3,
-          name: 'API Gateway & Service Orchestration',
-          technologies: ['Spring Boot', 'Docker', 'Kubernetes', 'Redis'],
+          name: 'Integration Reliability & Observability',
+          technologies: ['Python', 'Splunk', 'Opsgenie', 'Monitoring/Alerts'],
           achievements: [
-            'Integrated 15+ microservices',
-            'Containerized applications using Docker',
-            'Achieved 99.9% uptime'
+            'Built and maintained Splunk dashboard and alerts across non-prod and prod to improve visibility for critical integration flows',
+            'Implemented alert hygiene/cleanup to reduce noise and speed up incident response (clear ownership, actionable threasholds)',
+            'Developed and supported production operations and integration hardening for systems like Spinwheel & Experian'
           ]
         }
       ]

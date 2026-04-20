@@ -6,7 +6,7 @@ const Skills = () => {
     {
       icon: <FaServer />,
       title: 'Backend',
-      skills: ['Python', 'Java', 'Node.js', 'REST APIs', 'Microservices', 'SQL', 'Kafka']
+      skills: ['Java', 'Python', 'Spring Boot', 'Electron JS','REST APIs', 'Microservices', 'SQL', 'Kafka']
     },
     {
       icon: <FaDesktop />,
@@ -16,7 +16,7 @@ const Skills = () => {
     {
       icon: <FaTools />,
       title: 'Tools & DevOps',
-      skills: ['Git', 'Docker', 'AWS', 'CI/CD']
+      skills: ['Git', 'Docker', 'AWS', 'Jenkins', 'Splunk', 'Opsgenie']
     }
   ]
 
