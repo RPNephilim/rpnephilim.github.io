@@ -24,7 +24,7 @@ const Contact = () => {
               <FaLinkedin />
               <span>linkedin.com/in/raj-priyadarshi-of2023</span>
             </a>
-            <a href="/assets/resume.pdf" download className="contact-item">
+            <a href="/assets/raj_priyadarshi_resume.pdf" download className="contact-item">
               <FaDownload />
               <span>Download Resume</span>
             </a>

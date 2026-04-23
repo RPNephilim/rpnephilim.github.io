@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container hero-content">
         <div className="hero-text">
           <h1>Hi, I'm <span className="highlight">Raj Priyadarshi</span></h1>
-          <h2>Full Stack Engineer</h2>
+          <h2>Software Engineer</h2>
           <p>Specializing in <span className="highlight">distributed systems</span> and <span className="highlight">cloud-native architecture</span>. I build robust backends with <span className="highlight">Java & AWS</span> and bridge the gap to the user with <span className="highlight">React</span>.</p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">View Projects</a>
